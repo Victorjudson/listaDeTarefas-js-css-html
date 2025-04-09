@@ -28,7 +28,14 @@ function renderTasksOnHtml(textValue, done = false) {
 
     localStorage.setItem("tasks", JSON.stringify(tasks));
   });
+
   input.checked = done;
+
+  const totalTarefas = todoList.children.length;
+  if (totalTarefas >= 9) {
+    alert("Limite de tarefas atingido!");
+    return;
+  }
 
   const span = document.createElement("span");
   span.textContent = textValue;
