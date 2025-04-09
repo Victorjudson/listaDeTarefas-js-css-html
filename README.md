@@ -18,13 +18,9 @@ Esse projeto foi criado como exercício para reforçar a **lógica de programaç
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-
-## 📸 Demonstração
-
-(Adicione aqui uma imagem ou gif do projeto rodando, se quiser)
-
+- 
 ## 📂 Como executar
 
-1. Clone o repositório:
+Clone o repositório:
    ```bash
    git clone https://github.com/Victorjudson/listaDeTarefas-js-css-html.git
